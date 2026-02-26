@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>THPT Nguyễn Gia Thiều</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #08306b;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .box {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            width: 85%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #08306b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0d47a1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #002171;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TRƯỜNG THPT NGUYỄN GIA THIỀU</h1>
+    <p>Hơn 70 năm truyền thống – Chất lượng hàng đầu Hà Nội</p>
+</header>
+
+<nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#chatluong">Chất lượng</a>
+    <a href="#cosovatchat">Cơ sở vật chất</a>
+    <a href="#lienhe">Liên hệ</a>
+</nav>
+
+<section id="gioithieu">
+    <div class="box">
+        <h2>Giới thiệu chung</h2>
+        <p>
+            Trường THPT Nguyễn Gia Thiều, tọa lạc tại số 27, ngõ 298 Ngọc Lâm,
+            phường Bồ Đề, quận Long Biên, Hà Nội, là trường công lập uy tín với
+            hơn 70 năm truyền thống (thành lập năm 1951).
+        </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/School_building_example.jpg" 
+             alt="Trường THPT Nguyễn Gia Thiều">
+
+        <p>
+            Trường nổi tiếng với chất lượng giảng dạy cao và môi trường học tập năng động,
+            sáng tạo.
+        </p>
+    </div>
+</section>
+
+<section id="chatluong">
+    <div class="box">
+        <h2>Chất lượng đào tạo</h2>
+        <ul>
+            <li>✔ Top 10 trường THPT có điểm thi tốt nghiệp cao nhất Hà Nội năm 2021.</li>
+            <li>✔ Điểm chuẩn vào lớp 10 thuộc top đầu Hà Nội.</li>
+            <li>✔ Năm 2025: Điểm chuẩn là 25 điểm.</li>
+            <li>✔ Hơn 20 câu lạc bộ hoạt động sôi nổi.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="cosovatchat">
+    <div class="box">
+        <h2>Cơ sở vật chất</h2>
+        <ul>
+            <li>✔ Các dãy nhà học kiên cố, hiện đại.</li>
+            <li>✔ Phòng chức năng đầy đủ.</li>
+            <li>✔ Thư viện rộng rãi.</li>
+            <li>✔ Nhà thể chất, sân bóng rổ.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="lienhe">
+    <div class="box">
+        <h2>Thông tin liên hệ</h2>
+        <p>📍 Địa chỉ: Số 27, ngõ 298 Ngọc Lâm, Bồ Đề, Long Biên, Hà Nội</p>
+        <p>🌐 Website: nguyengiathieu.edu.vn</p>
+        <button onclick="alert('Cảm ơn bạn đã quan tâm đến THPT Nguyễn Gia Thiều!')">
+            Tìm hiểu thêm
+        </button>
+    </div>
+</section>
+
+<footer>
+    © 2026 Trường THPT Nguyễn Gia Thiều | Thiết kế bởi Hải Yến
+</footer>
+
+</body>
+</html>
